@@ -49,8 +49,7 @@ const App = () => {
           ? (
             <div className='container'>
               {
-                movies.map((movie) => 
-                  {return <MovieCard m={movie}/>}
+                movies.map((movie) => (<MovieCard m={movie}/>)
                 )
               }
             </div>
