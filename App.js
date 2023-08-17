@@ -21,8 +21,6 @@ const App = () => {
     searchMovie('green');
   }, []);
 
-  // console.log('the sizeof array of movies: ', movies.length);
-
   return (
     <div className='app'>
       <h1 className='app-logo__title'>Jali Movie</h1>
@@ -34,7 +32,6 @@ const App = () => {
           onChange={(e) => {
             setSearchTerm(e.target.value);
           }}
-          // onKeyUp={() => {searchMovie(searchTerm)}}
         />
         <img
           src='./icons8-search.svg'
@@ -43,7 +40,6 @@ const App = () => {
         />
       </div>
     
-      {/* {console.log(movies.length)} */}
       {
         movies.length > 0
           ? (
