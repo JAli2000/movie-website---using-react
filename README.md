@@ -1,4 +1,4 @@
-# movie-website---using-react
+# movie website - using React
 just a simple practice with react hooks and fetching data from API --> "http://www.omdbapi.com"
 
 first use `npx create-react-app YOUR-APP-NAME` in your terminal
